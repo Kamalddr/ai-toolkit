@@ -31,6 +31,7 @@ config:
         noise_scheduler: "flowmatch"
         optimizer: "adamw8bit"
         lr: 1e-4
+        disable_sampling: true
         ema_config:
           use_ema: true
           ema_decay: 0.99
